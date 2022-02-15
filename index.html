@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Tello</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logon.png">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav base">
+            <div>
+               
+                <img src="img/logon.png" alt="" class="logo" id="logo">
+
+            </div>
+            <div class="menu" id="menu">
+                <ul class="ul-menu">
+                    <li class="menu-item">  <a href="#home" class="menu-link active lang" key="home1">Inicio</a> </li>
+                    <li class="menu-item">  <a href="#about" class="menu-link lang" key="about">Sobre mí</a> </li>
+                    <li class="menu-item">  <a href="#skills" class="menu-link lang" key="skills">Habilidades</a> </li>
+                    <li class="menu-item">  <a href="#project" class="menu-link lang" key="projects">Proyectos</a> </li>
+                    <li class="menu-item"></li>
+                    <li><button class="button-menu-in translate" id="en">English</button></li>
+                    <li class="menu-item"></li>
+                    <li> <button class=" button-menu-es translate" id="es">Español</button></li>
+                    <li class="menu-item"></li>
+                    <img src="img/moon.png" id="icon">
+
+                </ul>
+                
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-align-justify" ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--Home-->
+        <section class="home base" id="home">
+            <div class="home-base" id="main-descrip">
+                <h1 class="home-title" ><span class="lang" key="hi">Hola,</span> <br> 
+                    <span class="lang" key="soy">Soy </span>
+                    <span class=" home-title-color">
+                            Angel Tello
+                        </span >
+                        <br>  
+                    <span class="typed"></span>
+                </h1>
+                <a href="img/garm.pdf" class="button lang" key="download">Descargar CV</a>   
+            </div>
+            <div class="home-icon-social">
+                <a href="https://www.facebook.com/angel1997.tello/" class="icon-social-home description-project"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/angel-tello-471408128/" class="icon-social-home description-project"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/DuckAng1997" class="icon-social-home description-project"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="home-img">
+                <!-- <img src="img/gedo.png" alt="" style="width: 70%; height: 70%;"> -->
+              <img src="img/fotot.png" alt="" >
+            </div>
+        </section>
+       
+        <!--about-->
+        <section class="about section" id="about">
+            <h2 class="section-title  lang" key="about">Sobre mí</h2>
+            <div class="about-container base">
+                <div class="about-img">
+                    <img src="img/foto2.jpg" alt="" >
+                </div>
+                <div>
+                    <h2 class="about__subtitle lang" key="about-title">Hola..</h2>
+                    <p class="about__text" >
+                        <span class="lang" key="about-content-txt1">
+                            Soy Angel Tello, Ingeniero de sistemas, me gusta trabajar con tecnologías en el back-end y front-end, me adapto a cualquier entorno de trabajo, me considero una persona autodidacta, porque me gusta investigar sobre temas que desconozco, reforzar mis conocimientos, me gusta dar solución a todas las actividades requeridas.
+                        </span>    
+                        <br>
+                        <span class="lang" key="about-content-txt2">
+                            Actualmente me encuentro culminando mi tesis, para la obtención de mi Título Universitario.
+                        </span>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education section">
+            <h2 class="section-title lang" key="education">Mi Educación</h2>
+            <div class="education__container bg-grid">
+                <div class="education__content">
+                    <div>
+                        <p class="about__text" >
+                            <h3 class="education__year lang">2022</h3>
+                            <span class="education_univerty lang">Universidad Tecnica de Machala</span>
+                        </p>
+                    </div>
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div>
+                        <p class="about__text" >
+                            <h3 class="education__race">Titulo</h3>
+                            <span class="education__specialty">Ingeniero de Sistemas</span>
+                        </p>   
+                    </div>
+                </div>
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2015</h3>
+                        <span class="education_univerty">Unidad Educativa Santisimos Corazones</span>
+                    </div>
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="education__race">Titulo</h3>
+                        <span class="education__specialty">Bachiller en Ciencias</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--skills-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title lang" key="skills">Mis Habilidades </h2>
+                <div class="skills-container base">
+                    
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-html5 skills__icon-html"></i>
+                                <span class="skills-name">HTML 5</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">80%</span>
+                            </div>
+                            <div class="skills-bar skill-red skills__html"> </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-css3-alt skills__icon-css"></i>
+                                <span class="skills-name">CSS</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">70%</span>
+                            </div>
+                            <div class="skills-bar skill-blue skills__css">
+                                
+                            </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-js skills__icon-js"></i>
+                                <span class="skills-name">JS</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">65%</span>
+                            </div>
+                            <div class="skills-bar skill-js skills__js">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-angular skills__icon-angular"></i>
+                                <span class="skills-name">Angular</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">50%</span>
+                            </div>
+                            <div class="skills-bar skill-red  skills__laravel">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-php skills__icon-php"></i>
+                                <span class="skills-name">PHP</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">60%</span>
+                            </div>
+                            <div class="skills-bar skill-blue skills__php">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-laravel skills__icon-laravel"></i>
+                                <span class="skills-name">Laravel</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">50%</span>
+                            </div>
+                            <div class="skills-bar skill-red  skills__laravel">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-node skills__icon-node"></i>
+                                <span class="skills-name">Node</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">65%</span>
+                            </div>
+                            <div class="skills-bar skill-node skills__node">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fas fa-database skills__icon-sql"></i>
+                                <span class="skills-name">MySQL</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">85%</span>
+                            </div>
+                            <div class="skills-bar skill-blue skills__mysql">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fas fa-database skills__icon-sql"></i>
+                                <span class="skills-name">NoSQL</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">70%</span>
+                            </div>
+                            <div class="skills-bar skill-blue skills__nosql">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fab fa-git-alt skills__icon-git"></i>
+                                <span class="skills-name">Git</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">60%</span>
+                            </div>
+                            <div class="skills-bar skill-red skills__icon-git">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fa-brands fa-python skills__icon-python"></i>
+                                <span class="skills-name">Python</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">70%</span>
+                            </div>
+                            <div class="skills-bar skill-blue skills__python">  </div>
+                        </div>
+                        <div class="skills-header">
+                            <div class="skills-body">
+                                <i class="fa-brands fa-android skills__icon-node"></i>
+                                <span class="skills-name">Android</span>
+                            </div>
+                            <div>
+                                <span class="skills-rate">50%</span>
+                            </div>
+                            <div class="skills-bar skill-node skills__laravel">  </div>
+                        </div>
+                </div>
+                <div class="base skills-container-header">
+                    <h2 class="skills2-subtitle"><img src="img/crecimiento.png" alt="" class="skills-img"></h2>
+                    <p class="skills-text">
+                        <span class="lang" key="skill-content2-txt1">
+                            En la vida profesional se va adquiriendo habilidades y capacidades las mismas nos permiten poner en práctica lo aprendido, pudiendo así resolver problemas con mayor agilidad. A continuación, se lista las habilidades profesionales:
+                        </span>
+                    </p>
+                </div>   
+                <div class="skills-container base">
+                    <div class="skills-header">
+                        <div class="skills-body">
+                            <i class="fas fa-briefcase skills__icon-equipo"></i>
+                            <span class="skills-name">Trabajo en Equipo</span>
+                        </div>
+                        <div>
+                            <span class="skills-rate">90%</span>
+                        </div>
+                        <div class="skills-bar skill-node skills__equipo"> </div>
+                    </div>
+                    <div class="skills-header">
+                        <div class="skills-body">
+                            <i class="far fa-address-card skills__icon-comunicacion"></i>
+                            <span class="skills-name">Comunicación</span>
+                        </div>
+                        <div>
+                            <span class="skills-rate">90%</span>
+                        </div>
+                        <div class="skills-bar skill-blue skills__html"> </div>
+                    </div>
+                    <div class="skills-header">
+                        <div class="skills-body">
+                            <i class="fab fa-medapps skills__icon-js"></i>
+                            <span class="skills-name">Creatividad</span>
+                        </div>
+                        <div>
+                            <span class="skills-rate">80%</span>
+                        </div>
+                        <div class="skills-bar skill-js skills__creativdad"> </div>
+                    </div>
+                    <div class="skills-header">
+                        <div class="skills-body">
+                            <i class="far fa-times-circle skills__icon-problems"></i>
+                            <span class="skills-name">Resolución de problemas</span>
+                        </div>
+                        <div>
+                            <span class="skills-rate">75%</span>
+                        </div>
+                        <div class="skills-bar skill-naranja skills__problemas"> </div>
+                    </div>
+                    <div class="skills-header">
+                        <div class="skills-body">
+                            <i class="fas fa-head-side-virus skills__icon-adaptacion"></i>
+                            <span class="skills-name">Capacidad de adaptación</span>
+                        </div>
+                        <div>
+                            <span class="skills-rate">80%</span>
+                        </div>
+                        <div class="skills-bar skill-morado skills__adaptacion"> </div>
+                    </div>
+                    <div class="skills-header">
+                        <div class="skills-body">
+                            <i class="fas fa-sitemap skills__icon-organizado"></i>
+                            <span class="skills-name">Organizado</span>
+                        </div>
+                        <div>
+                            <span class="skills-rate">80%</span>
+                        </div>
+                        <div class="skills-bar skill-azul-claro skills__organizado"> </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--project-->
+
+        <section class="project section" id="project">
+            <h2 class="section-title lang" key="projects">Proyectos</h2>
+            <div class="project-container base ">
+                <div class="project-img">
+                    <img src="img/Tiendaonlinde.png" alt="">
+                    <h3 class="description-project" key="project-tienda-title">Tienda Online</h3>
+                    <p class="description-project lang" key="project-tienda">Tienda Online desarrollado con Drupal 8 Comerce y PHP Server</p>
+                    <a href="https://dev-tienda-online.pantheonsite.io/" class="icon-social-home description-project"><i class="fas fa-level-up-alt"></i></a>
+                </div>
+                
+                <div class="project-img">
+                    <img src="img/centOS.png" alt="">
+                    <h3 class="description-project" key="project-centos-title">Servidores CentOS</h3>
+                    <p class="description-project  lang" key="project-centos">El proyecto consiste en configurar los servicios web, proxy, base de datos, samba, dhcp, correo, dns, firewall y ruteo haciendo uso del sistema operativo CentOS 7 virtualizado para el manejo y administración de cada uno de ellos en una topología de red.</p>
+                </div>
+
+                <div class="project-img">
+                    <img src="img/cookfish.png" alt="">
+                    <h3 class="description-project">CookFish</h3>
+                    <p class="description-project lang" key="project-cookfish">Cook Fish es una aplicación móvil que proporciona recetas de cocina que se pueden elaborar con los peces que se pueden adquirir en la ciudad de Machala. Cuenta con:
+                        • Ayuda visual, mediante fotografías del plato.
+                        • Ayuda escrita, sobre los ingredientes y modo de preparación.</p>
+                    <a href="https://play.google.com/store/apps/details?id=apps.ppax.recetafish" class="icon-social-home description-project"><i class="fa-brands fa-google-play"></i></a>
+                </div>
+                <div class="project-img">
+                    <img src="img/puertofish.png" alt="">
+                    <h3 class="description-project lang">PuertoFish </h3>
+                    <p class="description-project lang" key="project-puertofish">Puerto Fish es una aplicación móvil que sirve de ayuda para conocer o reconocer un pez que se desee comprar en la ciudad de Machala. Cuenta con:
+                        • Ayuda visual, mediante fotografías del pez.
+                        • Ayuda escrita, sobre las características que sirvan para reconocer al pez.
+                        • Una tabla con información nutricional del pez.</p>
+                    <a href="https://play.google.com/store/apps/details?id=apps.ppax.whatfish" class="icon-social-home description-project"><i class="fa-brands fa-google-play"></i></a>
+                   
+                   
+                </div>
+                <div class="project-img">
+                    <img src="img/fabrica.png" alt="">
+                    <h3 class="description-project lang" key="project-fabrica-title">Obtimizacion de fabrica</h3>
+                    <p class="description-project lang" key="project-fabrica">Simular el proceso de fabricación de mermelada que se realiza en la industria “MERMELAD S.A” mediante la aplicación del lenguaje de simulación “Flexsim” con el fin de estimar posibles mejoras en cuanto a su producción.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!--FOOTER-->
+    <footer class="footer">
+        <p class="footer-title">Angel Tello</p>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/angel1997.tello/" class="footer-social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/angel-tello-471408128/" class="footer-social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/DuckAng1997" class="footer-social-icon"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="lang" key="derechos"> &#169; 2021 copyright all right reserved</p>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/3ab6fb950e.js" crossorigin="anonymous"></script>
+</body>
+</html>
