@@ -409,23 +409,23 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 80%;
+  width: 60%;
   
 }
 .skills__css{
-  width: 70%;
-}
-.skills__js{
-  width: 65%;
-}
-.skills__php{
-  width: 60%;
-}
-.skills__laravel{
   width: 50%;
 }
+.skills__js{
+  width: 40%;
+}
+.skills__php{
+  width: 40%;
+}
+.skills__laravel{
+  width: 30%;
+}
 .skills__node{
-  width: 65%;
+  width: 30%;
 }
 .skills__mysql{
   width: 85%;
