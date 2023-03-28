@@ -7,7 +7,7 @@
     "about":"Sobre mí",
     "about-title": "Hola..",
     "about-content-txt1":"Soy Angel Tello, Ingeniero de sistemas, me gusta trabajar con tecnologías en el back-end y front-end, me adapto a cualquier entorno de trabajo, me considero una persona autodidacta, porque me gusta investigar sobre temas que desconozco, reforzar mis conocimientos, me gusta dar solución a todas las actividades requeridas.",
-    "about-content-txt2":"Actualmente me encuentro culminando mi tesis, para la obtención de mi Título Universitario.",
+    "about-content-txt2":"",
     "education":"Mi Educación",
     "skills":"Habilidades",
     "skill-content2-txt1":"En la vida profesional se va adquiriendo habilidades y capacidades las mismas nos permiten poner en práctica lo aprendido, pudiendo así resolver problemas con mayor agilidad. A continuación, se lista las habilidades profesionales:",
@@ -20,7 +20,7 @@
     "project-puertofish":"Puerto Fish es una aplicación móvil que sirve de ayuda para conocer o reconocer un pez que se desee comprar en la ciudad de Machala. Cuenta con: • Ayuda visual, mediante fotografías del pez. • Ayuda escrita, sobre las características que sirvan para reconocer al pez. • Una tabla con información nutricional del pez.",
     "project-fabrica-title":"Obtimizacion de fabrica",
     "project-fabrica":"Este Proyecto consiste en simular el proceso de fabricación de mermelada que se realiza en la industria MERMELAD S.A mediante la aplicación del lenguaje de simulación Flexsim con el fin de estimar posibles mejoras en cuanto a su producción.",
-    "derechos":"2021 copyright todos los derechos reservados"
+    "derechos":"2023 copyright todos los derechos reservados"
   },
   "en":{
     "home1":"Home",
@@ -30,7 +30,7 @@
     "about":"About me",
     "about-title": "Hi..",
     "about-content-txt1": "I am Angel Tello, Systems Engineer, I like to work with technologies in the back-end and front-end, I adapt to any work environment, I consider myself a self-taught person, because I like to investigate topics that I do not know, reinforce my knowledge, I like to solve all the required activities.",
-    "about-content-txt2": "I am currently completing my thesis, to obtain my University Degree.",
+    "about-content-txt2": ".",
     "education":"My Education",
     "skills":"Skills",
     "skill-content2-txt1":"In professional life, skills and abilities are acquired, which allow us to put what we have learned into practice, thus being able to solve problems with greater agility. The professional skills are listed below:",
@@ -43,6 +43,6 @@
     "project-puertofish":"Puerto Fish is a mobile application that helps to know or recognize a fish that you want to buy in the city of Machala. It has: • Visual help, through photographs of the fish. • Written help, on the characteristics that serve to recognize the fish. • A table with nutritional information of the fish.",
     "project-fabrica-title":"Factory Optimization",
     "project-fabrica":"This project consists of simulating the jam manufacturing process carried out in the MERMELAD S.A industry by applying the simulation language Flexsim in order to estimate possible improvements in terms of its production.",
-    "derechos":"2021 copyright all rights reserved"
+    "derechos":"2023 copyright all rights reserved"
   }
 }
